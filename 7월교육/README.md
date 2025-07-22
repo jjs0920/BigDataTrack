@@ -47,10 +47,13 @@ ages = pd.Series([-1,0,2,3,15])
 ages.replace([-1,0],1) : 특정 값 대체
 ages.clip(lower=1,upper=5) : 1보다 작은건 1, 5보다 큰건 5로 대
 
-■ 결측값 대체 방법
-https://colab.research.google.com/drive/1xUg6ogmlV-_PvOZApx5CyfJuuyyvwzRQ?usp=sharing#scrollTo=71c63b46 (참고)
-- 시간이 부족한 kaggle 에서는 시간 없으니깐 impute 사용하자
-
 ■ 결측치 확인 방법
  - apt.groupby('계약년도')['등기일자'].agg(전체건수 = 'size', 정상건수 = 'count') 와,,, count() 가 결측치 제외인지 몰랐음... 조심히 해야겠음
- - 
+ - isna.sum()
+
+■ 결측치 확인 방법
+https://colab.research.google.com/drive/1xUg6ogmlV-_PvOZApx5CyfJuuyyvwzRQ?usp=sharing#scrollTo=71c63b46 (참고)
+- 시간이 부족한 kaggle 에서는 시간 없으니깐 impute 사용하자
+- 멀티임퓨트 사용하기
+
+  
