@@ -56,4 +56,17 @@ https://colab.research.google.com/drive/1xUg6ogmlV-_PvOZApx5CyfJuuyyvwzRQ?usp=sh
 - 시간이 부족한 kaggle 에서는 시간 없으니깐 impute 사용하자
 - 멀티임퓨트 사용하기
 
+
+
+[7/23] 강의 내용
+
+- 정규 그래프인지 확인하는거는 df.describ() 통해서 평균과 중위수 및 분위수를 가지고 확인해볼것
+- df.describe(include=object) # 범주형 데이터 가
+
+
+
+[7/24] 강의 내용
+- API Reference 에서 함수 사용법 알아볼것
+
+- 다중공성선 문제는 설명을 위해 필요할 뿐, 머신러닝에서는 의미없음
   
